@@ -25,7 +25,7 @@ all-questions-required: false
 library(surveydown)
 ```
 
-::: {.sd_page id=welcome}
+--- welcome
 
 # Template - Predefined Random Options
 
@@ -36,23 +36,17 @@ sd_output("q1", type = "question")
 sd_next()
 ```
 
-:::
-
-::: {.sd_page id=page2}
+--- page2
 
 This is another page in your survey.
 ```{r}
 sd_next()
 ```
 
-:::
-
-::: {.sd_page id=end}
+--- end
 
 This it the last page in the survey
 
 ```{r}
 sd_close()
 ```
-
-:::
