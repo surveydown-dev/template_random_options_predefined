@@ -1,24 +1,23 @@
 ---
-# General Settings
-format: html
-echo: false
-warning: false
+# The YAML header specifies several settings for the survey but is not required.
+# A full list of settings can be found under _survey/settings.yml directory.
 
-# Theme Settings
-theme: default
-barposition: top
-footer-left: "Made with [surveydown](https://surveydown.org)"
-footer-right: '[<i class="bi bi-github"></i> Source Code](https://github.com/surveydown-dev/template_random_options_predefined)'
+theme-settings:
+  theme: default
+  barposition: top
+  footer-left: "Made with [surveydown](https://surveydown.org)"
+  footer-right: '[<i class="bi bi-github"></i> Source Code](https://github.com/surveydown-dev/template_random_options_predefined)'
 
-# Survey Settings
-use-cookies: false
-auto-scroll: false
-rate-survey: false
-system-language: en
-highlight-unanswered: true
-highlight-color: blue
-capture-metadata: true
-all-questions-required: false
+survey-settings:
+  show-previous: false
+  use-cookies: false
+  auto-scroll: false
+  rate-survey: false
+  system-language: en
+  highlight-unanswered: true
+  highlight-color: blue
+  capture-metadata: true
+  all-questions-required: false
 ---
 
 ```{r}
@@ -33,15 +32,11 @@ Here is a basic "multiple choice" question where the options are randomly sample
 
 ```{r}
 sd_output("q1", type = "question")
-sd_next()
 ```
 
 --- page2
 
 This is another page in your survey.
-```{r}
-sd_next()
-```
 
 --- end
 
