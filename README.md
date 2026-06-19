@@ -2,7 +2,7 @@ A template for creating predefined randomized survey options.
 
 ### 🎬 Walkthrough Recording
 
-[![Walkthrough recording](video-thumbnail.jpg)](https://github.com/surveydown-dev/template_random_options_predefined/blob/main/video-recording.mp4)
+[![Walkthrough recording](video-thumbnail.png)](https://cdn.jsdelivr.net/gh/surveydown-dev/template_random_options_predefined@main/video-recording.mp4)
 
 *Click the image above to play the recording.*
 
